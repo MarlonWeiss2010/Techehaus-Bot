@@ -1,0 +1,26 @@
+{
+  "name": "zechehaus-bot",
+  "version": "0.0.0",
+  "description": "This is the Bot from the Zechehaus Discord Server.",
+  "keywords": [
+    "Node.js",
+    "Discord",
+    "Bot",
+    "Zechehaus"
+  ],
+  "homepage": "https://github.com/MarlonWeiss2010/Techehaus-Bot#readme",
+  "bugs": {
+    "url": "https://github.com/MarlonWeiss2010/Techehaus-Bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonWeiss2010/Techehaus-Bot.git"
+  },
+  "license": "MIT",
+  "author": "Marlon",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
