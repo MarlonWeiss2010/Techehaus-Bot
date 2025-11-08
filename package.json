@@ -21,6 +21,16 @@
   "type": "commonjs",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/bot.js",
+    "start:dev": "nodemon src/bot.js",
+    "push:commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.13.0",
+    "@discordjs/rest": "^2.6.0",
+    "discord-api-types": "^0.38.32",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.10"
   }
 }
